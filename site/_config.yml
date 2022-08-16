@@ -1,0 +1,17 @@
+
+title: CloudSpin Example Site
+email: site@cloudspin.net
+description: >-
+  This is an example of a website project using the cloudspin 
+  [website-stack](https://github.com/kief/website-stack)
+  infrastructure code to manage hosting infrastructure for a
+  static website.
+baseurl: ""
+url: "https://cloudspin.xyz"
+twitter_username: kief
+github_username:  kief
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
