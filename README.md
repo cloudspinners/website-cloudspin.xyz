@@ -11,7 +11,7 @@ This is an example of a website project using the cloudspin [website-stack](http
 1. Docker. I use colima to install it on my Mac. In order to locally preview the site content, you need to enable exposing ports. Can do this by starting colima with the right parameters (`colima start --network-address`).
 2. [Dojo](https://github.com/kudulab/dojo) (I install it on my Mac with homebrew)
 
-Run dojo to download and run an instance of the kiefm/jekyll-dojo container, which has Jekyll preinstalled. After running the command, you should have a prompt open in the container instance. You can run jekyll commands to work with the site content. There's also a `go` script which wraps commonly used commands.
+Run dojo to download and run an instance of the kiefm/site-spin container, which has Jekyll preinstalled. After running the command, you should have a prompt open in the container instance. You can run jekyll commands to work with the site content. There's also a `go` script which wraps commonly used commands.
 
 ## Environment variables
 
